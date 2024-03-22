@@ -1,0 +1,34 @@
+payload:
+  - DOMAIN,twemoji.maxcdn.com
+  - DOMAIN,httpdns.n.netease.com
+  - DOMAIN,api.iplay.163.com
+#  - DOMAIN-SUFFIX,tinypng.com
+  - DOMAIN-SUFFIX,gov.cn
+#  - DOMAIN-SUFFIX,amazon.cn
+  - DOMAIN,opencloud.wostore.cn
+  - DOMAIN,map-mobile-opnimg.cdn.bcebos.com
+  - DOMAIN-SUFFIX,xsus.me
+  - DOMAIN-SUFFIX,xsus.io
+  - DOMAIN-SUFFIX,wqjbvw.lol
+  - DOMAIN-SUFFIX,ormroh.xyz
+  - DOMAIN-SUFFIX,stentvessel.top
+  - DOMAIN-SUFFIX,turgame.com
+  
+  # 深圳交通卡
+  - DOMAIN-SUFFIX,shenzhenmc.com
+  
+  # 饿了么加载水果/超市店铺问题
+  - DOMAIN,sjarvis.taobao.com
+  
+#  - DOMAIN-SUFFIX,oyunfor.com
+#  - DOMAIN-SUFFIX,iyzipay.com
+#  - DOMAIN-SUFFIX,payten.com.tr
+  
+  # 友盟
+  - DOMAIN,www.umeng.com
+  - DOMAIN,developer.umeng.com
+  - DOMAIN,devs.umeng.com
+  - DOMAIN,mobile.umeng.com
+  - DOMAIN,workbench.umeng.com
+  - DOMAIN,passport.umeng.com
+  - DOMAIN,apm.umeng.com

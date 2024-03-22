@@ -1,0 +1,9 @@
+#!name=DNS over HTTPS
+#!desc=Enable DNS over HTTPS (DoH) with Tencent public DNS.
+
+#dns-server = 119.29.29.29, 119.28.28.28, 223.5.5.5, 223.6.6.6
+
+[General]
+
+doh-server = https://doh.pub/dns-query
+doh-format = wireformat

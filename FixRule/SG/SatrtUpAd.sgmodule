@@ -1,0 +1,9 @@
+#!name=Phyxus StartUpAd
+#!desc=开屏去广告 @Phyxus
+
+[Script]
+高德地图_开屏去广告 = type=http-response,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/amap.js,pattern="^https://m5.amap.com/ws/valueadded/alimama/splash_screen?",requires-body=true
+脉脉_开屏去广告 = type=http-response,script-path=https://raw.githubusercontent.com/phyxus/phyxus/rules/FixRule/JS/Maimai_remove_ads.js,pattern="^https://open.taou.com/maimai/adshow?",requires-body=true
+
+[MITM]
+hostname = %APPEND% m5.amap.com, open.taou.com

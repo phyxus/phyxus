@@ -1,0 +1,164 @@
+#!name=DNSFilter
+#!desc=DNS分流
+
+[Host]
+
+*shunwang.com = server:system
+
+# > Apple
+*apple.com = server:8.8.8.8
+*apple.com.cn = server:8.8.8.8
+*icloud.com = server:8.8.8.8
+*icloud.com.cn = server:8.8.8.8
+*itunes.com = server:8.8.8.8
+
+# > Google
+*google.com = server:8.8.8.8
+*googleapis.com = server:8.8.8.8
+*gstatic.com = server:8.8.8.8
+*youtube.com = server:8.8.8.8
+*googlevideo.com = server:8.8.8.8
+
+# Ultra Paygo Wi-Fi Calling
+*ultra.me = server:8.8.8.8
+*t-mobile.com = server:8.8.8.8
+*3gppnetwork.org = server:8.8.8.8
+
+#> Global
+*github.com = server:8.8.8.8
+*githubusercontent.com = server:8.8.8.8
+*git.io = server:8.8.8.8
+*twitter.com = server:8.8.8.8
+*reddit.com = server:8.8.8.8
+*notion.com = server:8.8.8.8
+*notion.so = server:8.8.8.8
+*notion.site = server:8.8.8.8
+*notion.new = server:8.8.8.8
+*notion-static.com = server:8.8.8.8
+*discord.com = server:8.8.8.8
+*duckduckgo.com = server:8.8.8.8
+*musical.ly = server:8.8.8.8
+*muscdn.com = server:8.8.8.8
+*tiktok.com = server:8.8.8.8
+*tiktokcdn.com = server:8.8.8.8
+*tiktokv.com = server:8.8.8.8
+*byteoversea.com = server:8.8.8.8
+*ibytedtos.com = server:8.8.8.8
+*ibyteimg.com = server:8.8.8.8
+*v2ex.com = server:8.8.8.8
+*openai.com = server:8.8.8.8
+*.ai.com = server:8.8.8.8
+*cloudflare.com = server:8.8.8.8
+*workers.dev = server:8.8.8.8
+*nicedrive.top = server:8.8.8.8
+
+# > AirPort
+*nexitally.com = server:8.8.8.8
+*wqjbvw.lol = server:8.8.8.8
+*amysecure.com = server:8.8.8.8
+*ormroh.xyz = server:8.8.8.8
+*oxycontin.top = server:8.8.8.8
+*stentvessel.top = server:8.8.8.8
+*tagss01.pro = server:8.8.8.8
+*tagcdnsub.work = server:8.8.8.8
+*tagsub.net = server:8.8.8.8
+*tagsssubscribe.com = server:8.8.8.8
+
+# > 腾讯
+*qq.com = server:119.29.29.29
+*tencent.com = server:119.29.29.29
+*weixin.com = server:119.29.29.29
+*wechat.com = server:119.29.29.29
+*qpic.cn = server:119.29.29.29
+
+# > 阿里
+*taobao.com = server:223.5.5.5
+*tmall.com = server:223.5.5.5
+*alipay.com = server:223.5.5.5
+*alicdn.com = server:223.5.5.5
+*aliyun.com = server:223.5.5.5
+*aliyuncs.com = server:223.5.5.5
+*aliyuncdn.com = server:223.5.5.5
+*aliapp.com = server:223.5.5.5
+*alibaba.com = server:223.5.5.5
+*antgroup.com = server:223.5.5.5
+*cainiao.com = server:223.5.5.5
+*dingtalk.com = server:223.5.5.5
+*ele.me = server:223.5.5.5
+*elemecdn.me = server:223.5.5.5
+*feizhu.com = server:223.5.5.5
+*gaode.com = server:223.5.5.5
+*goofish.com = server:223.5.5.5
+*amap.com = server:223.5.5.5
+*uc.cn = server:223.5.5.5
+*ucweb.com = server:223.5.5.5
+*quark.cn = server:223.5.5.5
+*umeng.com = server:223.5.5.5
+*umengcloud.com = server:223.5.5.5
+*yitao.com = server:223.5.5.5
+*1688.com = server:223.5.5.5
+
+# > 其他
+*jd.com = server:119.29.29.29
+*bilibili.com = server:119.29.29.29
+*163.com = server:119.29.29.29
+*126.com = server:119.29.29.29
+*126.net = server:119.29.29.29
+*127.net = server:119.29.29.29
+*netease.com = server:119.29.29.29
+*mi.com = server:119.29.29.29
+*xiaomi.com = server:119.29.29.29
+*baidu.com = server:119.29.29.29
+*feishu.cn = server:119.29.29.29
+*lanhuapp.com = server:119.29.29.29
+*iqiyi.com = server:119.29.29.29
+*youku.com = server:119.29.29.29
+*mgtv.com = server:119.29.29.29
+*95516.com = server:119.29.29.29
+*meituan.com = server:119.29.29.29
+*meituan.net = server:119.29.29.29
+*dianping.com = server:119.29.29.29
+*douban.com = server:119.29.29.29
+*doubanio.com = server:119.29.29.29
+*xiaohongshu.com = server:119.29.29.29
+*xhscdn.com = server:119.29.29.29
+*hupu.com = server:119.29.29.29
+*hoopchina.com.cn = server:119.29.29.29
+*huxiu.com = server:119.29.29.29
+*huxiucdn.com = server:119.29.29.29
+*ruguoapp.com = server:119.29.29.29
+*zhihu.com = server:119.29.29.29
+*smzdm.com = server:119.29.29.29
+*zdmimg.com = server:119.29.29.29
+*10086.cn = server:system
+*cmcc.cn = server:system
+*189.cn = server:system
+*10010.com = server:system
+
+*icbc.com.cn = server:119.29.29.29
+*95508.com = server:119.29.29.29
+*bankcomm.com = server:119.29.29.29
+*bankcomm.cn = server:119.29.29.29
+*cmbc.com.cn = server:119.29.29.29
+*ccb.com = server:119.29.29.29
+*psbc.com = server:119.29.29.29
+
+# > PlayStation
+*dl.playstation.net = server:119.29.29.29
+
+# > Router Admin Panel
+amplifi.lan = server:system // Ubiquiti Amplifi Router
+router.synology.com = server:system // Synology Router
+sila.razer.com = server:system // Razer Sila Router
+router.asus.com = server:system // Asus Router
+routerlogin.net = server:system // Netgear Router
+orbilogin.com = server:system // Netgear Obri Router
+www.LinksysSmartWiFi.com = server:system // Linksys Router
+LinksysSmartWiFi.com = server:system // Linksys Router
+myrouter.local = server:system // Linksys Router
+*miwifi.com = server:system // Xiaomi Mi WiFi Router
+mediarouter.home = server:system // Huawei Router
+tplogin.cn = server:system // TP-Link Router
+tplinklogin.net = server:system // TP-Link Router
+melogin.cn = server:system // MERCURY Router
+falogin.cn = server:system // FAST Router

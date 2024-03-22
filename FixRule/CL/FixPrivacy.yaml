@@ -1,0 +1,21 @@
+payload:
+
+  - DOMAIN,hectorstatic.baidu.com
+  - DOMAIN,adashx4yt.m.taobao.com
+  - DOMAIN-SUFFIX,u3.ucweb.com
+  
+#  - DOMAIN-SUFFIX,quark.cn
+#  - DOMAIN-SUFFIX,ucweb.com
+#  - DOMAIN-SUFFIX,uc.cn
+#  - DOMAIN-SUFFIX,sm.cn
+#  - DOMAIN-SUFFIX,kuaishou.com
+
+  - DOMAIN-SUFFIX,37.com
+  - DOMAIN-SUFFIX,37.com.cn
+  - DOMAIN-SUFFIX,singular.net
+  
+  - DOMAIN-KEYWORD,switch.cup.com.cn
+  - DOMAIN-KEYWORD,sdk.open.talk.getui.net
+  - DOMAIN-KEYWORD,sdk-conf.getui.com
+  - DOMAIN-KEYWORD,cm-10-138.getui.com
+  - DOMAIN-KEYWORD,ads.95516.com

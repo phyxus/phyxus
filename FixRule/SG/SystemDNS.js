@@ -1,0 +1,1 @@
+$done({ servers: $network.dns })

@@ -1,0 +1,5 @@
+# NAME: FixGlobal
+# DESC: Fix rules to global warp proxy
+
+DOMAIN-SUFFIX,hostyun.com
+DOMAIN-SUFFIX,workers.dev
