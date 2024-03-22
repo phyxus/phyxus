@@ -1,4 +1,4 @@
-#!name=DNSFilter
+#!name=Phyxus DNSFilter
 #!desc=DNS分流 @Phyxus
 
 [Host]
