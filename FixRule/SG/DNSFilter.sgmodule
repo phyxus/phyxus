@@ -167,4 +167,4 @@ falogin.cn = script:system-dns // FAST Router
 [Script]
 
 # 系统DNS
-system-dns = type=dns,script-path=https://raw.githubusercontent.com/hyxus/hyxus/rules/FixRule/SG/SystemDNS.js
+system-dns = type=dns,script-path=https://raw.githubusercontent.com/phyxus/phyxus/rules/FixRule/SG/SystemDNS.js
