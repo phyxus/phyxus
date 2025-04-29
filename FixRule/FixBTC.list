@@ -1,0 +1,25 @@
+# NAME: BTC
+# DESC: Fix rules to BTC TW
+
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitget.fit
+DOMAIN-SUFFIX,argent.net
+DOMAIN-SUFFIX,argent-api.com
+DOMAIN-SUFFIX,starknet.io
+DOMAIN-SUFFIX,blastapi.io
+DOMAIN-SUFFIX,datawallet.com
+
+DOMAIN-SUFFIX,yingwangtech.club
+DOMAIN-SUFFIX,commonservice.io
+DOMAIN-SUFFIX,yingwangtech.net
+DOMAIN-SUFFIX,nftstatic.com
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,mokexapp.net
+DOMAIN-SUFFIX,saasexch.io
+
+
+IP-CIDR,35.77.148.188/32,no-resolve
+IP-CIDR,52.68.117.1/24,no-resolve
+IP-CIDR,54.150.106.1/24,no-resolve
+IP-CIDR,17.253.116.253/32,no-resolve
+IP-CIDR,13.248.135.87/32,no-resolve

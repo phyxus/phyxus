@@ -1,0 +1,32 @@
+# NAME: FixCN
+# DESC: Fix rules to CN direct
+
+DOMAIN,twemoji.maxcdn.com
+DOMAIN,httpdns.n.netease.com
+DOMAIN,api.iplay.163.com
+DOMAIN,opencloud.wostore.cn
+DOMAIN,map-mobile-opnimg.cdn.bcebos.com
+
+# 饿了么加载水果/超市店铺问题
+DOMAIN,sjarvis.taobao.com
+
+# douyin
+DOMAIN,tp-pay.snssdk.com
+
+DOMAIN-SUFFIX,gov.cn
+DOMAIN-SUFFIX,turgame.com
+
+# 深圳交通卡
+DOMAIN-SUFFIX,shenzhenmc.com
+
+# 中国移动APP
+DOMAIN,client.app.coc.10086.cn
+
+# 友盟
+DOMAIN,www.umeng.com
+DOMAIN,developer.umeng.com
+DOMAIN,devs.umeng.com
+DOMAIN,mobile.umeng.com
+DOMAIN,workbench.umeng.com
+DOMAIN,passport.umeng.com
+DOMAIN,apm.umeng.com

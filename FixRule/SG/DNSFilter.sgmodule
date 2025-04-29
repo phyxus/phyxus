@@ -1,0 +1,177 @@
+#!name=Phyxus DNSFilter
+#!desc=DNS分流 @Phyxus
+#!category=Phyxus
+
+[Host]
+
+*shunwang.com = script:system-dns
+
+# > Apple
+*apple.com = server:223.5.5.5
+*apple.com.cn = server:223.5.5.5
+*icloud.com = server:223.5.5.5
+*icloud.com.cn = server:223.5.5.5
+*itunes.com = server:223.5.5.5
+
+# > Google
+*google.com = server:223.5.5.5
+*googleapis.com = server:223.5.5.5
+*gstatic.com = server:223.5.5.5
+*youtube.com = server:223.5.5.5
+*googlevideo.com = server:223.5.5.5
+
+# > Ultra Paygo Wi-Fi Calling
+*ultra.me = server:223.5.5.5
+*t-mobile.com = server:223.5.5.5
+*3gppnetwork.org = server:223.5.5.5
+
+# > Netflix
+*netflix.com = server:1.1.1.1
+
+# > Global
+*github.com = server:223.5.5.5
+*githubusercontent.com = server:223.5.5.5
+*git.io = server:223.5.5.5
+*twitter.com = server:223.5.5.5
+*reddit.com = server:223.5.5.5
+*notion.com = server:223.5.5.5
+*notion.so = server:223.5.5.5
+*notion.site = server:223.5.5.5
+*notion.new = server:223.5.5.5
+*notion-static.com = server:223.5.5.5
+*discord.com = server:223.5.5.5
+*duckduckgo.com = server:223.5.5.5
+*musical.ly = server:223.5.5.5
+*muscdn.com = server:223.5.5.5
+*tiktok.com = server:223.5.5.5
+*tiktokcdn.com = server:223.5.5.5
+*tiktokv.com = server:223.5.5.5
+*byteoversea.com = server:223.5.5.5
+*ibytedtos.com = server:223.5.5.5
+*ibyteimg.com = server:223.5.5.5
+*v2ex.com = server:223.5.5.5
+*openai.com = server:223.5.5.5
+*ai.com = server:223.5.5.5
+*chatgpt.com = server:223.5.5.5
+*cloudflare.com = server:223.5.5.5
+*workers.dev = server:223.5.5.5
+*ovcc.cc = server:223.5.5.5
+*xyz = server:223.5.5.5
+*nicedrive.top = server:223.5.5.5
+
+# > AirPort
+*nexitally.com = server:223.5.5.5
+*wqjbvw.lol = server:223.5.5.5
+*amysecure.com = server:223.5.5.5
+*ormroh.xyz = server:223.5.5.5
+*oxycontin.top = server:223.5.5.5
+*stentvessel.top = server:223.5.5.5
+*tagss01.pro = server:223.5.5.5
+*tagcdnsub.work = server:223.5.5.5
+*tagsub.net = server:223.5.5.5
+*tagsssubscribe.com = server:223.5.5.5
+
+# > 腾讯
+*qq.com = server:119.29.29.29
+*tencent.com = server:119.29.29.29
+*weixin.com = server:119.29.29.29
+*wechat.com = server:119.29.29.29
+*qpic.cn = server:119.29.29.29
+
+# > 阿里
+*taobao.com = server:223.5.5.5
+*tmall.com = server:223.5.5.5
+*alipay.com = server:223.5.5.5
+*alicdn.com = server:223.5.5.5
+*aliyun.com = server:223.5.5.5
+*aliyuncs.com = server:223.5.5.5
+*aliyuncdn.com = server:223.5.5.5
+*aliapp.com = server:223.5.5.5
+*alibaba.com = server:223.5.5.5
+*antgroup.com = server:223.5.5.5
+*cainiao.com = server:223.5.5.5
+*dingtalk.com = server:223.5.5.5
+*ele.me = server:223.5.5.5
+*elemecdn.me = server:223.5.5.5
+*feizhu.com = server:223.5.5.5
+*gaode.com = server:223.5.5.5
+*goofish.com = server:223.5.5.5
+*amap.com = server:223.5.5.5
+*uc.cn = server:223.5.5.5
+*ucweb.com = server:223.5.5.5
+*quark.cn = server:223.5.5.5
+*umeng.com = server:223.5.5.5
+*umengcloud.com = server:223.5.5.5
+*yitao.com = server:223.5.5.5
+*1688.com = server:223.5.5.5
+
+# > 其他
+*jd.com = server:119.29.29.29
+*bilibili.com = server:119.29.29.29
+*163.com = server:119.29.29.29
+*126.com = server:119.29.29.29
+*126.net = server:119.29.29.29
+*127.net = server:119.29.29.29
+*netease.com = server:119.29.29.29
+*mi.com = server:119.29.29.29
+*xiaomi.com = server:119.29.29.29
+*baidu.com = server:119.29.29.29
+*feishu.cn = server:119.29.29.29
+*lanhuapp.com = server:119.29.29.29
+*iqiyi.com = server:119.29.29.29
+*youku.com = server:119.29.29.29
+*mgtv.com = server:119.29.29.29
+*95516.com = server:119.29.29.29
+*meituan.com = server:119.29.29.29
+*meituan.net = server:119.29.29.29
+*dianping.com = server:119.29.29.29
+*douban.com = server:119.29.29.29
+*doubanio.com = server:119.29.29.29
+*xiaohongshu.com = server:119.29.29.29
+*xhscdn.com = server:119.29.29.29
+*hupu.com = server:119.29.29.29
+*hoopchina.com.cn = server:119.29.29.29
+*huxiu.com = server:119.29.29.29
+*huxiucdn.com = server:119.29.29.29
+*ruguoapp.com = server:119.29.29.29
+*zhihu.com = server:119.29.29.29
+*smzdm.com = server:119.29.29.29
+*zdmimg.com = server:119.29.29.29
+*10086.cn = script:system-dns
+*cmcc.cn = script:system-dns
+*189.cn = script:system-dns
+*10010.com = script:system-dns
+
+*icbc.com.cn = server:119.29.29.29
+*95508.com = server:119.29.29.29
+*bankcomm.com = server:119.29.29.29
+*bankcomm.cn = server:119.29.29.29
+*cmbc.com.cn = server:119.29.29.29
+*ccb.com = server:119.29.29.29
+*psbc.com = server:119.29.29.29
+
+# > PlayStation
+*dl.playstation.net = server:119.29.29.29
+
+# > Router Admin Panel
+amplifi.lan = script:system-dns // Ubiquiti Amplifi Router
+router.synology.com = script:system-dns // Synology Router
+sila.razer.com = script:system-dns // Razer Sila Router
+router.asus.com = script:system-dns // Asus Router
+routerlogin.net = script:system-dns // Netgear Router
+orbilogin.com = script:system-dns // Netgear Obri Router
+www.LinksysSmartWiFi.com = script:system-dns // Linksys Router
+LinksysSmartWiFi.com = script:system-dns // Linksys Router
+myrouter.local = script:system-dns // Linksys Router
+*miwifi.com = script:system-dns // Xiaomi Mi WiFi Router
+mediarouter.home = script:system-dns // Huawei Router
+tplogin.cn = script:system-dns // TP-Link Router
+tplinklogin.net = script:system-dns // TP-Link Router
+melogin.cn = script:system-dns // MERCURY Router
+falogin.cn = script:system-dns // FAST Router
+
+
+[Script]
+
+# 系统DNS
+system-dns = type=dns,script-path=https://raw.githubusercontent.com/Phyxus/Phyxus/rules/FixRule/SG/SystemDNS.js
