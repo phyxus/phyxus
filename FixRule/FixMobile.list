@@ -1,0 +1,6 @@
+# NAME: FixMobile
+# DESC: Fix rules for mobile
+
+DOMAIN-SUFFIX,3gppnetwork.org
+DOMAIN-SUFFIX,t-mobile.com
+DOMAIN-SUFFIX,ultramobile.com
