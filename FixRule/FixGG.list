@@ -1,0 +1,4 @@
+# NAME: FixMobile
+# DESC: Fix rules for mobile
+
+IP-CIDR,87.194.0.0/16,no-resolve
