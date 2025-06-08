@@ -2,6 +2,7 @@
 # DESC: Fix rules for mobile
 
 DOMAIN-SUFFIX,t-mobile.com
+DOMAIN-SUFFIX,telephony.goog
 DOMAIN-SUFFIX,ultramobile.com
 DOMAIN-SUFFIX,optimizely.com
 DOMAIN-SUFFIX,ultra.me
