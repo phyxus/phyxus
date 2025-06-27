@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,telephony.goog
 DOMAIN-SUFFIX,ultramobile.com
 DOMAIN-SUFFIX,optimizely.com
 DOMAIN-SUFFIX,ultra.me
+DOMAIN-SUFFIX,idemia.io
 
 # Wifi Calling
 DOMAIN-SUFFIX,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
