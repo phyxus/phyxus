@@ -30,3 +30,8 @@ DOMAIN-KEYWORD,ads.95516.com
 DOMAIN-SUFFIX,ios.prod.cloud.netflix.com
 DOMAIN-SUFFIX,ios.ngp.prod.cloud.netflix.com
 DOMAIN-SUFFIX,appboot.netflix.com
+
+# Android屏蔽Netflix检测DNS
+DOMAIN,android.prod.cloud.netflix.com
+DOMAIN,android.ngp.prod.cloud.netflix.com
+DOMAIN,android-appboot.netflix.com

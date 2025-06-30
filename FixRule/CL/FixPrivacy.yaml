@@ -25,7 +25,12 @@ payload:
   - DOMAIN-KEYWORD,cm-10-138.getui.com
   - DOMAIN-KEYWORD,ads.95516.com
   
-  # 屏蔽Netflix检测DNS
+  # iOS屏蔽Netflix检测DNS
   - DOMAIN-SUFFIX,ios.prod.cloud.netflix.com
   - DOMAIN-SUFFIX,ios.ngp.prod.cloud.netflix.com
   - DOMAIN-SUFFIX,appboot.netflix.com
+  
+  # Android屏蔽Netflix检测DNS
+  - DOMAIN-SUFFIX,android.prod.cloud.netflix.com
+  - DOMAIN-SUFFIX,android.ngp.prod.cloud.netflix.com
+  - DOMAIN-SUFFIX,android-appboot.netflix.com
