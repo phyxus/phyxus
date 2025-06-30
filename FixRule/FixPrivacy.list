@@ -26,4 +26,7 @@ DOMAIN-KEYWORD,sdk-conf.getui.com
 DOMAIN-KEYWORD,cm-10-138.getui.com
 DOMAIN-KEYWORD,ads.95516.com
 
-
+# 屏蔽Netflix检测DNS
+DOMAIN-SUFFIX,ios.prod.cloud.netflix.com
+DOMAIN-SUFFIX,ios.ngp.prod.cloud.netflix.com
+DOMAIN-SUFFIX,appboot.netflix.com
