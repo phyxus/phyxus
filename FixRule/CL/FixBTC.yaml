@@ -14,6 +14,23 @@ payload:
   - DOMAIN-SUFFIX,binance.info
   - DOMAIN-SUFFIX,mokexapp.net
   - DOMAIN-SUFFIX,saasexch.io
+  - DOMAIN-SUFFIX,binance.com
+  - DOMAIN-SUFFIX,binance.us
+  - DOMAIN-SUFFIX,binance.org
+  - DOMAIN-SUFFIX,binance.me
+  - DOMAIN-SUFFIX,binancefuture.com
+  - DOMAIN-SUFFIX,binanceapi.com
+  - DOMAIN-SUFFIX,bnbstatic.com
+  - DOMAIN-SUFFIX,binancezh.com
+  - DOMAIN-SUFFIX,binancezh.net
+  - DOMAIN-SUFFIX,bnbzh.net
+  - DOMAIN-SUFFIX,bnappzh.com
+  - DOMAIN-SUFFIX,saasexch.com
+  - DOMAIN-SUFFIX,yingwangtech.net
+  - DOMAIN-SUFFIX,marketwebb.biz
+  - DOMAIN-SUFFIX,suitechsui.red
+  - DOMAIN-SUFFIX,binance.co.jp
+  
   
   - DOMAIN-KEYWORD,binance
   - DOMAIN-KEYWORD,binanceapi
@@ -35,7 +52,6 @@ payload:
   - IP-CIDR,54.150.106.1/24,no-resolve
   - IP-CIDR,17.253.116.253/32,no-resolve
   - IP-CIDR,13.248.135.87/32,no-resolve
-  
   
   - IP-CIDR,47.107.98.27/32,no-resolve
   - IP-CIDR,47.107.82.99/32,no-resolve
