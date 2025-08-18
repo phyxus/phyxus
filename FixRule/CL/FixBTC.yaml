@@ -15,6 +15,8 @@ payload:
   - DOMAIN-SUFFIX,mokexapp.net
   - DOMAIN-SUFFIX,saasexch.io
   
+  - DOMAIN-KEYWORD,1306379396.file.myqcloud.com
+  
   - IP-CIDR,35.77.148.188/32,no-resolve
   - IP-CIDR,52.68.117.1/24,no-resolve
   - IP-CIDR,54.150.106.1/24,no-resolve
