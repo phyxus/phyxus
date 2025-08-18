@@ -16,6 +16,19 @@ DOMAIN-SUFFIX,nftstatic.com
 DOMAIN-SUFFIX,binance.info
 DOMAIN-SUFFIX,mokexapp.net
 DOMAIN-SUFFIX,saasexch.io
+
+DOMAIN-KEYWORD,binance
+DOMAIN-KEYWORD,binanceapi
+DOMAIN-KEYWORD,bnbchain
+DOMAIN-KEYWORD,bnbstatic
+DOMAIN-KEYWORD,bntrace
+DOMAIN-KEYWORD,saasexch
+DOMAIN-KEYWORD,yingwangtech
+DOMAIN-KEYWORD,binancezh
+DOMAIN-KEYWORD,bnbzh
+DOMAIN-KEYWORD,bnappzh
+DOMAIN-KEYWORD,marketwebb
+DOMAIN-KEYWORD,suitechsui
 DOMAIN-KEYWORD,1306379396.file.myqcloud.com
 
 
@@ -24,3 +37,10 @@ IP-CIDR,52.68.117.1/24,no-resolve
 IP-CIDR,54.150.106.1/24,no-resolve
 IP-CIDR,17.253.116.253/32,no-resolve
 IP-CIDR,13.248.135.87/32,no-resolve
+
+
+IP-CIDR,47.107.98.27/32,no-resolve
+IP-CIDR,47.107.82.99/32,no-resolve
+IP-CIDR,120.79.3.17/32,no-resolve
+IP-CIDR,47.107.32.31/32,no-resolve
+IP-CIDR,120.24.233.110/32,no-resolve
