@@ -1,16 +1,29 @@
 #!name = Phyxus MyPlugin
 #!desc = MyPlugin @Phyxus
 
+
 [Rewrite]
-^https?:\/\/([^.\/]+\.)*githubusercontent\.com(\/.*)?$ header-replace Accept-Language en-US,en;q=0.9
-^https?:\/\/([^.\/]+\.)*kelee\.one(\/.*)?$ response-header-replace Content-Type text/plain;\x20charset=utf-8
+
+# ^https?:\/\/([^.\/]+\.)*githubusercontent\.com(\/.*)?$ header-replace Accept-Language en-US,en;q=0.9
+# ^https?:\/\/([^.\/]+\.)*kelee\.one(\/.*)?$ response-header-replace Content-Type text/plain;\x20charset=utf-8
+^https?:\/\/(?!(pluginhub\.))([^.\/]+\.)*kelee\.one(\/.*)?$ response-header-replace Content-Type text/plain;\x20charset=utf-8
+
 
 [Script]
-http-request ^https?:\/\/([^.\/]+\.)*kelee\.one(\/.*)?$ script-path=https://raw.githubusercontent.com/Phyxus/Phyxus/rules/FixRule/JS/LoonHeader.js, requires-header=true, tag=LoonHeader
+
+# http-request ^https:\/\/([^.\/]+\.)*githubusercontent\.com(\/.*)?$ script-path=https://raw.githubusercontent.com/Phyxus/Phyxus/rules/FixRule/JS/GitHubHeader.js, requires-header=true, tag=GitHubHeader
+# http-request ^https?:\/\/([^.\/]+\.)*kelee\.one(\/.*)?$ script-path=https://raw.githubusercontent.com/Phyxus/Phyxus/rules/FixRule/JS/LoonHeader.js, requires-header=true, tag=LoonHeader
+http-request ^https?:\/\/(?!(pluginhub\.))([^.\/]+\.)*kelee\.one(\/.*)?$ script-path=https://raw.githubusercontent.com/Phyxus/Phyxus/rules/FixRule/JS/LoonHeader.js, requires-header=true, tag=LoonHeader
+
 # 高德地图_开屏去广告
-http-response ^https://m5.amap.com/ws/valueadded/alimama/splash_screen? script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/amap.js, requires-body=true, tag=高德地图_开屏去广告
+# http-response ^https://m5.amap.com/ws/valueadded/alimama/splash_screen? script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/amap.js, requires-body=true, tag=高德地图_开屏去广告
 # 脉脉_开屏去广告
-http-response ^https://open.taou.com/maimai/adshow? script-path=https://raw.githubusercontent.com/Phyxus/Phyxus/rules/FixRule/JS/Maimai_remove_ads.js, requires-body=true, tag=脉脉_开屏去广告
+# http-response ^https://open.taou.com/maimai/adshow? script-path=https://raw.githubusercontent.com/Phyxus/Phyxus/rules/FixRule/JS/Maimai_remove_ads.js, requires-body=true, tag=脉脉_开屏去广告
+
 
 [MITM]
-hostname = *kelee.one, raw.githubusercontent.com, gist.githubusercontent.com, m5.amap.com, m5-zb.amap.com, sns.amap.com
+
+hostname = *kelee.one
+
+# , raw.githubusercontent.com, gist.githubusercontent.com
+# , m5.amap.com, m5-zb.amap.com, sns.amap.com

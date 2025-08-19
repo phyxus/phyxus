@@ -2,22 +2,31 @@
 #!desc=MyModule @Phyxus
 #!category=Phyxus
 
+
 [Header Rewrite]
-http-response ^https?:\/\/([^.\/]+\.)*kelee\.one(\/.*)?$ header-replace Content-Type "text/plain; charset=utf-8"
+
+# http-response ^https?:\/\/([^.\/]+\.)*kelee\.one(\/.*)?$ header-replace Content-Type "text/plain; charset=utf-8"
+http-response ^https?:\/\/(?!(pluginhub\.))([^.\/]+\.)*kelee\.one(\/.*)?$ header-replace Content-Type "text/plain; charset=utf-8"
 
 
-#[Body Rewrite]
-#http-response ^https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMobile/ChinaMobile.list "IP-CIDR,117.161.2.5,ChinaMobile" "IP-CIDR,117.161.2.5/16,ChinaMobile"
-#http-response ^https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMobile/ChinaMobile.list "IP-CIDR,117.161.2.5,no-resolve" "IP-CIDR,117.161.2.5/16,no-resolve"
+# [Body Rewrite]
+# http-response ^https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMobile/ChinaMobile.list "IP-CIDR,117.161.2.5,ChinaMobile" "IP-CIDR,117.161.2.5/16,ChinaMobile"
+# http-response ^https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMobile/ChinaMobile.list "IP-CIDR,117.161.2.5,no-resolve" "IP-CIDR,117.161.2.5/16,no-resolve"
 
 
 [Script]
-GitHubHeader = type=http-request, script-path=https://raw.githubusercontent.com/Phyxus/Phyxus/rules/FixRule/JS/GitHubHeader.js, pattern=^https:\/\/([^.\/]+\.)*githubusercontent\.com(\/.*)?$
-LoonHeader = type=http-request, script-path=https://raw.githubusercontent.com/Phyxus/Phyxus/rules/FixRule/JS/LoonHeader.js, pattern=^https?:\/\/([^.\/]+\.)*kelee\.one(\/.*)?$
-#高德地图_开屏去广告 = type=http-response, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/amap.js, pattern="^https://m5.amap.com/ws/valueadded/alimama/splash_screen?", requires-body=true
-#脉脉_开屏去广告 = type=http-response, script-path=https://raw.githubusercontent.com/Phyxus/Phyxus/rules/FixRule/JS/Maimai_remove_ads.js, pattern="^https://open.taou.com/maimai/adshow?", requires-body=true
+
+# GitHubHeader = type=http-request, script-path=https://raw.githubusercontent.com/Phyxus/Phyxus/rules/FixRule/JS/GitHubHeader.js, pattern=^https:\/\/([^.\/]+\.)*githubusercontent\.com(\/.*)?$
+# LoonHeader = type=http-request, script-path=https://raw.githubusercontent.com/Phyxus/Phyxus/rules/FixRule/JS/LoonHeader.js, pattern=^https?:\/\/([^.\/]+\.)*kelee\.one(\/.*)?$
+LoonHeader = type=http-request, script-path=https://raw.githubusercontent.com/Phyxus/Phyxus/rules/FixRule/JS/LoonHeader.js, pattern=^https?:\/\/(?!(pluginhub\.))([^.\/]+\.)*kelee\.one(\/.*)?$
+
+# 高德地图_开屏去广告 = type=http-response, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/amap.js, pattern="^https://m5.amap.com/ws/valueadded/alimama/splash_screen?", requires-body=true
+# 脉脉_开屏去广告 = type=http-response, script-path=https://raw.githubusercontent.com/Phyxus/Phyxus/rules/FixRule/JS/Maimai_remove_ads.js, pattern="^https://open.taou.com/maimai/adshow?", requires-body=true
 
 
 [MITM]
-hostname = %APPEND% *kelee.one, raw.githubusercontent.com, gist.githubusercontent.com
-#, m5.amap.com, open.taou.com
+
+hostname = %APPEND% *kelee.one
+
+# , raw.githubusercontent.com, gist.githubusercontent.com
+# , m5.amap.com, open.taou.com
