@@ -27,11 +27,11 @@ DOMAIN-KEYWORD,cm-10-138.getui.com
 DOMAIN-KEYWORD,ads.95516.com
 
 # 屏蔽Netflix检测DNS
-DOMAIN-SUFFIX,ios.prod.cloud.netflix.com
-DOMAIN-SUFFIX,ios.ngp.prod.cloud.netflix.com
-DOMAIN-SUFFIX,appboot.netflix.com
+# DOMAIN-SUFFIX,ios.prod.cloud.netflix.com
+# DOMAIN-SUFFIX,ios.ngp.prod.cloud.netflix.com
+# DOMAIN-SUFFIX,appboot.netflix.com
 
 # Android屏蔽Netflix检测DNS
-DOMAIN,android.prod.cloud.netflix.com
-DOMAIN,android.ngp.prod.cloud.netflix.com
-DOMAIN,android-appboot.netflix.com
+# DOMAIN,android.prod.cloud.netflix.com
+# DOMAIN,android.ngp.prod.cloud.netflix.com
+# DOMAIN,android-appboot.netflix.com
