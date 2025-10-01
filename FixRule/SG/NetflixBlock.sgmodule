@@ -1,0 +1,16 @@
+#!name=Phyxus NetflixBlock
+#!desc=NetflixBlock @Phyxus
+#!category=Phyxus
+
+
+[Rule]
+
+# 屏蔽Netflix检测DNS
+DOMAIN-SUFFIX,ios.prod.cloud.netflix.com,reject
+DOMAIN-SUFFIX,ios.ngp.prod.cloud.netflix.com,reject
+DOMAIN-SUFFIX,appboot.netflix.com,reject
+
+# Android屏蔽Netflix检测DNS
+DOMAIN,android.prod.cloud.netflix.com,reject
+DOMAIN,android.ngp.prod.cloud.netflix.com,reject
+DOMAIN,android-appboot.netflix.com,reject
