@@ -1,0 +1,5 @@
+# NAME: FixIsolation
+# DESC: Fix rules to isolation
+
+DOMAIN-SUFFIX,dmit.io
+DOMAIN-SUFFIX,dmit.sh
