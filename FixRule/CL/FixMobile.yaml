@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,ultra.me
   - DOMAIN-SUFFIX,idemia.io
   - DOMAIN-SUFFIX,mpeasylink.com
+  - DOMAIN-SUFFIX,redpocket.com
   
   # Wifi Calling
   - DOMAIN-SUFFIX,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
