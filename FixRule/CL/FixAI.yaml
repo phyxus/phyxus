@@ -1,0 +1,4 @@
+payload:
+  # ARC 浏览器
+  - DOMAIN-SUFFIX,arc.net
+  - DOMAIN-SUFFIX,diabrowser.engineering
