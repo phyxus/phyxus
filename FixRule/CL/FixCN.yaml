@@ -4,7 +4,11 @@ payload:
   - DOMAIN,api.iplay.163.com
   - DOMAIN,opencloud.wostore.cn
   - DOMAIN,map-mobile-opnimg.cdn.bcebos.com
+  
+  # 爱奇艺
   - DOMAIN,policy.video.iqiyi.com
+  - DOMAIN,msg.qy.net
+  - DOMAIN,www.qchannel01.cn
   
   # 饿了么加载水果/超市店铺问题
   - DOMAIN,sjarvis.taobao.com
