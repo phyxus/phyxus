@@ -1,4 +1,7 @@
 payload:
+  # Claude Code
+  - DOMAIN-SUFFIX,datadoghq.com
+  
   # ARC 浏览器
   - DOMAIN-SUFFIX,arc.net
   - DOMAIN-SUFFIX,diabrowser.engineering
