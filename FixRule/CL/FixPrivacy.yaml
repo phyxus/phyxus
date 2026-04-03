@@ -34,3 +34,6 @@ payload:
 #  - DOMAIN-SUFFIX,android.prod.cloud.netflix.com
 #  - DOMAIN-SUFFIX,android.ngp.prod.cloud.netflix.com
 #  - DOMAIN-SUFFIX,android-appboot.netflix.com
+  
+  # 该恶意网站利用WebRTC恶意上报真实IP
+  - DOMAIN-SUFFIX,ping0.cc

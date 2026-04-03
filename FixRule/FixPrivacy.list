@@ -35,3 +35,6 @@ DOMAIN-KEYWORD,ads.95516.com
 # DOMAIN,android.prod.cloud.netflix.com
 # DOMAIN,android.ngp.prod.cloud.netflix.com
 # DOMAIN,android-appboot.netflix.com
+
+# 该恶意网站利用WebRTC恶意上报真实IP
+DOMAIN-SUFFIX,ping0.cc
