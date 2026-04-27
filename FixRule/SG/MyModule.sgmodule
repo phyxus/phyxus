@@ -26,7 +26,7 @@ LoonHeader = type=http-request, script-path=https://raw.githubusercontent.com/Ph
 
 [MITM]
 
-hostname = %APPEND% *kelee.one
+hostname = %APPEND% -hub.kelee.one, *kelee.one
 
 # , raw.githubusercontent.com, gist.githubusercontent.com
 # , m5.amap.com, open.taou.com
