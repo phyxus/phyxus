@@ -5,3 +5,10 @@ payload:
   # ARC 浏览器
   - DOMAIN-SUFFIX,arc.net
   - DOMAIN-SUFFIX,diabrowser.engineering
+  
+  # API
+  - DOMAIN,ai.vmsus.com
+  - DOMAIN,api.vmsus.com
+  - DOMAIN,stapi.vmsus.com
+  - DOMAIN,chat.vmsus.com
+  - DOMAIN,lite.vmsus.com
