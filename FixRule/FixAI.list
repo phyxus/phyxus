@@ -1,8 +1,13 @@
 # NAME: FixAI
 # DESC: Fix rules to AI
 
-# Claude Code
+# Claude
 DOMAIN-SUFFIX,datadoghq.com
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,usefathom.com
+DOMAIN-SUFFIX,b-cdn.net
 
 # ARC 浏览器
 DOMAIN-SUFFIX,arc.net
