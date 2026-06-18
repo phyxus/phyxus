@@ -9,6 +9,13 @@ DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,usefathom.com
 DOMAIN-SUFFIX,b-cdn.net
 
+# OpenAI
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,crixet.com
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-KEYWORD,chatgpt-async-webps-prod
+
 # ARC 浏览器
 DOMAIN-SUFFIX,arc.net
 DOMAIN-SUFFIX,diabrowser.engineering
