@@ -75,6 +75,8 @@ payload:
   - DOMAIN-SUFFIX,engagelab.cc
   - DOMAIN-SUFFIX,abcdstable.com
   - DOMAIN-SUFFIX,bgstatic.com
+  - DOMAIN-KEYWORD,bitkeep
+  - DOMAIN-KEYWORD,bitapi
   
   # Crypto
   - DOMAIN-KEYWORD,arweave
