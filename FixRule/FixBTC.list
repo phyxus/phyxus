@@ -67,6 +67,18 @@ DOMAIN-SUFFIX,bybit-global.com
 DOMAIN-SUFFIX,bybit.cloud
 DOMAIN-SUFFIX,bybitglobal.com
 
+# Bitget
+DOMAIN-SUFFIX,bitkeep.vip
+DOMAIN-SUFFIX,engageforce.net
+DOMAIN-SUFFIX,engage7.com
+DOMAIN-SUFFIX,gurenla.com
+DOMAIN-SUFFIX,log.noxiaohao.com
+DOMAIN-SUFFIX,gm816.com
+DOMAIN-SUFFIX,theengagelab.com
+DOMAIN-SUFFIX,engagelab.cc
+DOMAIN-SUFFIX,abcdstable.com
+DOMAIN-SUFFIX,bgstatic.com
+
 # Crypto
 DOMAIN-KEYWORD,arweave
 DOMAIN-KEYWORD,bitcoin

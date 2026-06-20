@@ -37,3 +37,6 @@ payload:
   
   # 该恶意网站利用WebRTC恶意上报真实IP
   - DOMAIN-SUFFIX,ping0.cc
+  
+  # Bitget日志
+  - DOMAIN,log.noxiaohao.com
