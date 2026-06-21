@@ -1,0 +1,13 @@
+# NAME: FixAI
+# DESC: Fix rules to AI
+
+# Claude
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,datadoghq.com
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,usefathom.com
+DOMAIN-SUFFIX,b-cdn.net
