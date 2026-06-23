@@ -8,6 +8,9 @@ DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN-KEYWORD,chatgpt-async-webps-prod
 
+# Copilot
+DOMAIN-SUFFIX,githubcopilot.com
+
 # ARC 浏览器
 DOMAIN-SUFFIX,arc.net
 DOMAIN-SUFFIX,diabrowser.engineering
